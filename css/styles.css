@@ -1,10 +1,45 @@
 body {
-  color: #333;
-  font-family: Helvetica, Arial, sans-serif;
-  background-color: skyblue; /* Sanity Check! */
+  font-family: 'Roboto', sans-serif;
+  color: #404040;
+  background-color: #gray;
 }
 
-h1 {
-  margin-top: 100px;
-  text-align: center;
+.jumbotron {
+  font-size: 200px;
+
+}
+.container {
+  width: 520px;
+  margin-top: 20px;
+}
+
+.button-group {
+  margin-bottom: 20px;  /*avoid overlap of the text input*/
+ }
+
+ .btn { 
+  position: relative;
+  margin-left: 200px;  /* center the button  */ 
+  margin-right: 200px; 
+  height: 50px ;      /*custom sizing */ 
+  width: 100px;
+  font-size: 25px;
+ }
+
+.posts {
+  clear: both;       /*avoids overlap of the text input */ 
+  list-style: none; /*removes the bullet points*/ 
+  padding-left: 0px;  /* centers the "feed" */ 
+  width: 100%;
+}
+
+.posts li {
+  background-color: #fff;
+  border: 1px solid #d8d8d8;
+  padding-top: 10px;   /*custom sizing*/
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  min-height: 42px;
 }

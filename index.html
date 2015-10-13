@@ -1,29 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>Blank</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- STYLESHEETS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <title>MICROBLOG</title>
 
-    <!-- VENDOR SCRIPTS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- STYLESHEETS -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 
-    <!-- APPLICATION SCRIPTS -->
-    <script src="base.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h1>We're in good shape.</h1>
-        </div>
+  <!-- VENDOR SCRIPTS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!-- APPLICATION SCRIPTS -->
+  <script src="base.js"></script>
+</head>
+<body>
+ <form class="text-center" id="new-post">
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>SPILL THE BEANS.</h1>
       </div>
     </div>
-  </body>
+  </form>
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+
+     
+
+        <div class="form-group">
+          <textarea class="form-control status-box" rows="2" placeholder="What's on your mind?"></textarea>
+        </div>
+      </form>
+      <div class="button-group">
+        <a href="#" class="btn btn-primary">Post</a>
+      </div>
+    
+      <ul class="posts">
+      </ul>
+      
+    </div>
+    </div>
+    </div>
+
+   
+</body>
 </html>
